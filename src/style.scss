@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    .footer-left{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+        .left-logo{
+            cursor: pointer;
+        }
+        .copyright{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+    .images{
+        display: flex;
+        gap: 15px;
+        margin: 15px;
+        cursor: pointer;
+    }
+}
